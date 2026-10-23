@@ -5,6 +5,8 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  # Run by hand from the Actions tab, e.g. when Actions were off for a push.
+  workflow_dispatch:
 
 jobs:
   build-and-test:
